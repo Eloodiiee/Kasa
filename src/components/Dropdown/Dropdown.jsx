@@ -1,7 +1,6 @@
 import PropTypes from "prop-types"
 import { useState } from "react"
-import chevronUp from "../../assets/images/chevron-up.svg"
-import chevronDown from "../../assets/images/chevron-down.svg"
+import chevron from "../../assets/images/chevron-up.svg"
 
 function Dropdown({ content, title }) {
     const [isOpen, setIsOpen] = useState(false)
@@ -14,7 +13,7 @@ function Dropdown({ content, title }) {
         <div className="dropdown-element">
             <div className="dropdown-nav" onClick={toggleDropdown}>
                 <h3 className="dropdown-heading">{title}</h3>
-                <img src={chevronUp} alt="Chevron Up" className={`collapse-icon ${isOpen ? "open" : ""}`} />
+                <img src={chevron} alt="Chevron" className={`collapse-icon ${isOpen ? "open" : ""}`} />
             </div>
             <div className={`dropdown-details ${isOpen ? "open" : ""}`}>
                 {title === "Equipements" ? (
