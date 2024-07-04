@@ -5,7 +5,7 @@ import CardsArray from "../components/Cards/Cards"
 const Accueil = () => {
     return (
         <Fragment>
-            <Banner className="bannerOne" title="Chez vous, partout et ailleurs" />
+            <Banner className="bannerOne" title="Chez vous, partout et ailleurs" imgUrl="src/assets/images/banner_1.png" />
             <CardsArray />
         </Fragment>
     )
