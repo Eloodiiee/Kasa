@@ -1,5 +1,7 @@
 import React from "react"
 import { Link } from "react-router-dom"
+
+/** La page Erreur s'affiche si mon Url n'est pas reconnu, un lien sur la page est affiché pour pouvoir être redirigé vers la page d'accueil en cliquant dessus**/
 const PageErreur = () => {
     return (
         <div className="error">

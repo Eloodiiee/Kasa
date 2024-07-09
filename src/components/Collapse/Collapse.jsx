@@ -1,6 +1,7 @@
 import React, { useState } from "react"
 import chevronUp from "../../assets/images/chevron-up.svg"
 
+/** Ce component permet d'afficher le titre et la description des collapses ( page A propos) **/
 const Collapse = ({ title, children }) => {
     const [isOpen, setIsOpen] = useState(false)
 

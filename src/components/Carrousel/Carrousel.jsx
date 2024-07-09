@@ -3,6 +3,7 @@ import leftArrow from "../../assets/images/arrow-left.svg"
 import rightArrow from "../../assets/images/arrow-right.svg"
 import { useState } from "react"
 
+/** Ce component permet de créer et d'afficher une carrousel, avec des images, des flèches directionnelles (suivant  ou précedent) et un compteur**/
 function Carrousel({ pictures }) {
     const [imgIndex, setPicIndex] = useState(0)
 

@@ -2,6 +2,8 @@ import React from "react"
 import Collapse from "../components/Collapse/Collapse"
 import Banner from "../components/banner/Banner"
 import { Fragment } from "react"
+
+/** La page a propos affiche tout les components requis sur cette page (banner, collapses) **/
 const About = () => {
     return (
         <Fragment>

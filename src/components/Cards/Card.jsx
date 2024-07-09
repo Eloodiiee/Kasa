@@ -3,6 +3,7 @@ import Lodging from "../../assets/data/logements.json"
 import { Fragment } from "react"
 import { Link } from "react-router-dom"
 
+/** Ce component permet de créer une carte avec un lien unique basé sur la base de données **/
 const Card = () => {
     return (
         <Fragment>

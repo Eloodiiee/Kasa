@@ -1,6 +1,7 @@
 import React from "react"
 import PropTypes from "prop-types"
 
+/** Ce component permet de créer une bannière avec des variables spécifiques **/
 const Banner = ({ className, title, imgUrl }) => {
     return (
         <div className={className}>
@@ -10,7 +11,7 @@ const Banner = ({ className, title, imgUrl }) => {
         </div>
     )
 }
-
+/** Cette partie permet de déterminer le type des variables (string, number...) **/
 Banner.propTypes = {
     className: PropTypes.string,
     title: PropTypes.string,

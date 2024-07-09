@@ -2,6 +2,7 @@ import React, { Fragment } from "react"
 import Banner from "../components/banner/Banner"
 import CardsArray from "../components/Cards/Cards"
 
+/**  La page d'Accueil affiche tout les components requis sur cette page (banner, CardArray) **/
 const Accueil = () => {
     return (
         <Fragment>

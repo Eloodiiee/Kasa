@@ -2,6 +2,7 @@ import PropTypes from "prop-types"
 import { useState } from "react"
 import chevron from "../../assets/images/chevron-up.svg"
 
+/** Ce component permet d'afficher le titre et la description des collapses ( page Logements) **/
 function Dropdown({ content, title }) {
     const [isOpen, setIsOpen] = useState(false)
 

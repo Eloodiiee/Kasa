@@ -4,9 +4,12 @@ import { useNavigate, useParams } from "react-router-dom"
 import { getLodgesById } from "../Services/dataServices"
 import LodgeTag from "../components/LodgeTag/LodgeTag"
 import Rating from "../components/Rating/Rating"
-import Dropdown from "../components/Dropdown/Dropdown"
+import Dropdown from "../components/DropDown/Dropdown"
 import Carrousel from "../components/Carrousel/Carrousel"
 
+/** La page Logements affiche tout les components requis sur cette page (les tags, étoiles, dropdown, et le carrousel) **/
+/** La const Lodging permet d'afficher les informations du logement sélectionné en comparant l'Id dans la data des logements et de l'url**/
+/** Si l'Id ne correspond pas l'utilisateur est renvoyé vers la pas erreur**/
 const Lodging = () => {
     const { id } = useParams()
     const [data, setData] = useState(null)

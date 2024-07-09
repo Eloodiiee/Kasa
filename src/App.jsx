@@ -10,6 +10,7 @@ import Accueil from "./pages/Accueil"
 import Logements from "./pages/Logements"
 import PageErreur from "./pages/PageErreur"
 
+/** Permet d'afficher les éléments de base de chaque pages et de définir les Url utilisés**/
 function App() {
     return (
         <Router>

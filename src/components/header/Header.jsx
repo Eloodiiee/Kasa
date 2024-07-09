@@ -2,6 +2,7 @@ import React from "react"
 import { NavLink } from "react-router-dom"
 import logokasa from "../../assets/logo/Logokasa.png"
 
+/** Ce component permet d'afficher le header avec le nav**/
 const Header = () => {
     return (
         <header>

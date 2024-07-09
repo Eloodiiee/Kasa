@@ -2,6 +2,7 @@ import PropTypes from "prop-types"
 import solidStar from "../../assets/images/star-solid.svg"
 import blankStar from "../../assets/images/star-empty.svg"
 
+/** Ce component permet d'afficher la note d'un logement en étoile**/
 function Rating({ rating, hostName }) {
     return (
         <>
