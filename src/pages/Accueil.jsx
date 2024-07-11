@@ -1,4 +1,4 @@
-import React, { Fragment } from "react"
+import { Fragment } from "react"
 import Banner from "../components/banner/Banner"
 import CardsArray from "../components/Cards/Cards"
 

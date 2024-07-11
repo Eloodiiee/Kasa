@@ -1,6 +1,6 @@
-import React, { useState } from "react"
+import { useState } from "react"
 import chevronUp from "../../assets/images/chevron-up.svg"
-
+import PropTypes from "prop-types"
 /** Ce component permet d'afficher le titre et la description des collapses ( page A propos) **/
 const Collapse = ({ title, children }) => {
     const [isOpen, setIsOpen] = useState(false)
@@ -18,6 +18,10 @@ const Collapse = ({ title, children }) => {
             <div className={`collapse-content ${isOpen ? "open" : ""}`}>{children}</div>
         </div>
     )
+}
+Collapse.propTypes = {
+    title: PropTypes.string,
+    children: PropTypes.string,
 }
 
 export default Collapse

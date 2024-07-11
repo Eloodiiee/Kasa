@@ -1,4 +1,3 @@
-import React from "react"
 import PropTypes from "prop-types"
 
 /** Ce component permet de créer une bannière avec des variables spécifiques **/

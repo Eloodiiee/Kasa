@@ -1,4 +1,3 @@
-import React from "react"
 import footerlogo from "../../assets/logo/footer_logo.png"
 
 /** Ce component permet d'afficher le footer dans chaque pages **/

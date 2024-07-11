@@ -1,4 +1,3 @@
-import React from "react"
 import { NavLink } from "react-router-dom"
 import logokasa from "../../assets/logo/Logokasa.png"
 
